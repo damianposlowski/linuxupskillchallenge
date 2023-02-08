@@ -2,7 +2,7 @@
 #
 #   Loop over files on your desktop 
 #   
-FILES="/home/damian/Desktop/"
+FILES=~/Desktop/
 for f in $FILES
     do
         ls -sh $f
