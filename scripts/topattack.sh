@@ -1,5 +1,6 @@
+ #!/bin/bash
  #
- ##   topattack - list the most persistent attackers
+ #    topattack - list the most persistent attackers
  #
  if [ -z "$1" ]; then
  echo -e "\nUsage: `basename $0` <num> - Lists the top <num> attackers by IP"
